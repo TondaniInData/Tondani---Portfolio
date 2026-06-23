@@ -541,3 +541,33 @@ footer{
         gap:15px;
     }
 }
+/* ========================================= */
+/* SECTION ANIMATIONS */
+/* ========================================= */
+
+.hidden{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all 1s ease;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* role transition */
+
+#sliding-role{
+    transition:all 0.5s ease;
+}
+
+/* active nav */
+
+.nav-links a.active{
+    color:#2563eb;
+}
+
+.nav-links a.active::after{
+    width:100%;
+}
