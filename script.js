@@ -3,10 +3,9 @@
 /* ========================================= */
 
 const roles = [
-    "Data Science",
-    "Data Analyst",
-    "Business Intelligence",
-    "Microsoft Certified"
+    "Data Science | Data Analyst",
+    "Business Intelligence | Microsoft Certified "
+    
 ];
 
 let roleIndex = 0;
