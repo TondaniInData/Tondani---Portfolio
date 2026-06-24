@@ -207,9 +207,9 @@ section{
 
 .about-container{
     display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:25px;
+    align-items:stretch;      /* makes boxes same height */
+    justify-content:center;
+    gap:30px;
 }
 
 .about-box{
