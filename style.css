@@ -479,77 +479,113 @@ section{
     color:#2563eb;
 }
 
-
 /* ========================================= */
 /* FOOTER */
 /* ========================================= */
 
 footer{
-    padding:20px 8%;
-margin-top:50px;
+
+    padding:40px 8%;
+
+    border-top:1px solid #e5e7eb;
+
     display:flex;
-    justify-content:space-between;
+
+    flex-direction:column;
+
+    justify-content:center;
+
     align-items:center;
 
-    border-top:2px solid #e5e7eb;
+    gap:25px;
 
-     background:#fafafa;
 }
 
 
-/* LEFT LOGO */
+/* CONTACT HEADING */
 
-.footer-logo img{
-    width:45px;
-    object-fit:contain;
+footer h3{
+
+    font-size:1.3rem;
+
+    font-weight:700;
+
+    color:#2563eb;
+
+    letter-spacing:1px;
+
 }
 
 
-/* RIGHT SIDE */
+/* CONTACT ROW */
 
 .footer-contact{
+
     display:flex;
+
     align-items:center;
-    gap:35px;
+
+    justify-content:center;
+
+    gap:40px;
+
+    flex-wrap:wrap;
+
 }
 
 
 /* EACH ITEM */
 
 .footer-item{
+
     display:flex;
+
     align-items:center;
+
     gap:8px;
+
 }
 
 
 /* ICONS */
 
 .footer-item i{
-    color:#2563eb;
+
     font-size:1rem;
+
+    color:#2563eb;
+
 }
 
 
 /* TEXT */
 
 .footer-item span{
-    font-size:0.95rem;
+
     color:#374151;
+
+    font-size:0.95rem;
+
 }
 
 
 /* LINK */
 
 .footer-item a{
+
     text-decoration:none;
+
     color:#374151;
+
     transition:0.3s ease;
+
 }
 
 
 .footer-item a:hover{
+
     color:#2563eb;
+
 }
 /* ========================================= */
 /* RESPONSIVE */
