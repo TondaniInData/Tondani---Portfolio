@@ -464,33 +464,77 @@ section{
 }
 
 
+/* ========================================= */
+/* FOOTER */
+/* ========================================= */
+
 footer{
-    padding:18px 8%;
-    border-top:1px solid #e5e7eb;
+    padding:20px 8%;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
+
+    border-top:1px solid #e5e7eb;
+
+    background:white;
 }
 
-.footer-left img{
-    width:55px;
+
+/* LEFT LOGO */
+
+.footer-logo img{
+    width:45px;
+    object-fit:contain;
 }
 
-.footer-right{
+
+/* RIGHT SIDE */
+
+.footer-contact{
     display:flex;
-    gap:10px;
+    align-items:center;
+    gap:35px;
 }
 
-.footer-right a{
-    font-size:1.2rem;
+
+/* EACH ITEM */
+
+.footer-item{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+
+/* ICONS */
+
+.footer-item i{
     color:#2563eb;
+    font-size:1rem;
+}
+
+
+/* TEXT */
+
+.footer-item span{
+    font-size:0.95rem;
+    color:#374151;
+}
+
+
+/* LINK */
+
+.footer-item a{
+    text-decoration:none;
+    color:#374151;
     transition:0.3s ease;
 }
 
-.footer-right a:hover{
-    transform:translateY(-3px);
-}
 
+.footer-item a:hover{
+    color:#2563eb;
+}
 /* ========================================= */
 /* RESPONSIVE */
 /* ========================================= */
