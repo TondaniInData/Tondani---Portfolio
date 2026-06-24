@@ -349,13 +349,29 @@ section{
     margin-bottom:20px;
 }
 
-.flip-card-front button{
-    border:none;
+.project-btn{
+
+    text-decoration:none;
+
     background:#2563eb;
+
     color:white;
-    padding:10px 18px;
-    border-radius:6px;
-    cursor:pointer;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    transition:0.3s ease;
+
+    font-size:0.95rem;
+
+}
+
+
+.project-btn:hover{
+
+    transform:translateY(-3px);
+
 }
 
 .flip-card-back{
